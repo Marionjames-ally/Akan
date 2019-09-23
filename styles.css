@@ -23,7 +23,6 @@ body {
     /* color: black; */
     box-shadow: 2px 2px 2px 5px solid grey;
     font-weight: bolder
-
 }
 
 #info {
@@ -35,8 +34,6 @@ body {
     box-shadow: 2px 2px 2px 5px solid grey;
     color: yellow;
     font-weight: bold;
-
-    /* background-size: contain; */
     padding: 20%;
 
 }

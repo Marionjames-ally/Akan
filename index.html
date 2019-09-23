@@ -23,74 +23,43 @@
             in which they were born. These "day names" have further meanings concerning the soul and character of the
             person. Middle names have considerably more variety and can refer to their birth order, twin status, or an
             ancestor's middle name.
-
-            <!-- This naming tradition is shared throughout West Africa and the African diaspora. During the 18th–19th
-          centuries, slaves in the Caribbean from the region that is modern-day Ghana were referred to as Coromantees.
-          Many of the leaders of slave rebellions had "day names" including Cuffy or Kofi, Cudjoe or Kojo, and Quamina
-          or Kwame/Kwamina.
-
-          Most Ghanaians have at least one name from this system, even if they also have an English or Christian name.
-          Notable figures with day names include Ghana's first president Kwame Nkrumah and former United Nations
-          Secretary-General Kofi Annan. -->
           </p>
         </div>
       </div>
-
-      <!-- <div id="form">
-        <div class="form">
-          <form>
-            <label>Century</label><br>
-            <input type="number" id="Century" placeholder="Century in number..." required ><br><br>
-            <label>year</label><br>
-            <input type="number" id="Year" placeholder="Year in number..." required><br><br>
-            <label>Month</label><br>
-            <input type="number" id="Month" placeholder="Month in numbers..." required ><br><br>
-            <label>Day</label><br>
-            <input type="number" id="Day" placeholder="Day in numbers..." required ><br><br>
-            <label>female</label>
-            <input type="radio" id="female" placeholder="female" required><br>
-            <label>male</label>
-            <input type="radio" id="male" placeholder="male"><br>
-            <a href="#result"><button type="button" name="button" class="btn btn-primary mb-2" onclick="checkDayOfWeek();">Calculate Birthday</button></a>
-            <h1 id="result"></h1>
-    
-          </form>
-        </div>
-      </div>
-    </div> -->
-      <!-- </div> -->
       <div id>
-      <div class="col-md-6 right">
-        <div class="panel col-sm-6 offset-sm-3">
-          <div class="form-group top-form">
-            <label for="century" class="labels">Century</label>
-            <input type="number" class="form-control" placeholder="Enter the century" id="century" value="" required min="0"
-              max="30">
+        <div class="col-md-6 right">
+          <div class="panel col-sm-6 offset-sm-3">
+            <div class="form-group top-form">
+              <label for="century" class="labels">Century</label>
+              <input type="number" class="form-control" placeholder="Enter the century" id="century" value="" required
+                min="0" max="30">
+            </div>
+            <div class="form-group">
+              <label for="year" class="labels">Year</label>
+              <input type="number" value="" placeholder="Enter the year" class="form-control" id="year" required min="0"
+                max="100">
+            </div>
+            <div class="form-group">
+              <label for="month" class="labels">Month</label>
+              <input type="number" value="" class="form-control" placeholder="Enter the month of the year" id="month"
+                required min="0" max="12">
+            </div>
+            <div class="form-group">
+              <label for="monthDay" class="labels">Day of month</label>
+              <input type="number" value="" placeholder="Enter the day of the month" class="form-control" id="monthday"
+                required min="0" max="12">
+            </div>
+            <form class="radio-button">
+              <input type="radio" class="genders labels" value="1" name="rads" required>Male
+              <input type="radio" class="genders labels" value="2" name="rads" required>Female
+            </form>
+            <br>
+            <button type="button" name="button" class="btn btn-primary mb-2" onclick="getInput();">Calculate
+              Birthday</button>
+            <h1 id="result"></h1>
           </div>
-          <div class="form-group">
-            <label for="year" class="labels">Year</label>
-            <input type="number" value="" placeholder="Enter the year" class="form-control" id="year" required min="0" max="100">
-          </div>
-          <div class="form-group">
-            <label for="month" class="labels">Month</label>
-            <input type="number" value="" class="form-control" placeholder="Enter the month of the year" id="month" required
-              min="0" max="12">
-          </div>
-          <div class="form-group">
-            <label for="monthDay" class="labels">Day of month</label>
-            <input type="number" value="" placeholder="Enter the day of the month" class="form-control" id="monthday" required
-              min="0" max="12">
-          </div>
-          <form class="radio-button">
-            <input type="radio" class="genders labels" value="1"  name="rads" required>Male
-            <input type="radio" class="genders labels" value="2"  name="rads" required>Female
-          </form>
-          <br>
-          <button type="button" name="button" class="btn btn-primary mb-2" onclick="getInput();">Calculate Birthday</button>
-          <h1 id="result"></h1>
         </div>
-      </div>
-      <script src="main.js"></script>
+        <script src="main.js"></script>
 </body>
 
 </html>

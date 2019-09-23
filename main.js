@@ -27,89 +27,85 @@ function getInput() {
         dayOfMonth
     ) % 7;
 
- // alert("The day of the week you were born is:" + dayOfWeeks);
+  // alert("The day of the week you were born is:" + dayOfWeeks);
 
-  switch(dayOfWeeks){
+  switch (dayOfWeeks) {
     case 0:
-    alert("The day of the week you were born is Sunday");
-    break;
+      alert("The day of the week you were born is Sunday");
+      break;
 
     case 1:
-    alert("The day of the week you were born is Sunday");
-    break;
+      alert("The day of the week you were born is Sunday");
+      break;
 
     case 2:
-    alert("The day of the week you were born is Sunday");
-    break;
+      alert("The day of the week you were born is Sunday");
+      break;
 
     case 3:
-    alert("The day of the week you were born is Sunday");
-    break;
+      alert("The day of the week you were born is Sunday");
+      break;
 
     case 4:
-    alert("The day of the week you were born is Sunday");
-    break;
+      alert("The day of the week you were born is Sunday");
+      break;
 
     case 5:
-    alert("The day of the week you were born is Sunday");
-    break;
+      alert("The day of the week you were born is Sunday");
+      break;
 
     case 6:
-    alert("The day of the week you were born is Sunday");
-    break;
+      alert("The day of the week you were born is Sunday");
+      break;
 
     default:
-    alert("Please enter your details");
-    break;
-
+      alert("Please enter your details");
+      break;
   }
 
   var gender = document.querySelector('input[name ="rads"]:checked').value;
-
-  
 
   switch (gender) {
     case "1": {
       alert("you are male");
 
       switch (dayOfWeeks) {
-        case 0:{
+        case 0: {
           alert("Your Akan Name is Kwasi");
           break;
         }
         case 1:
-            alert("Your Akan Name is Kwadwo");
+          alert("Your Akan Name is Kwadwo");
           break;
 
         case 2:
-            alert("Your Akan Name is Kwabena");
+          alert("Your Akan Name is Kwabena");
           break;
 
         case 3:
-            alert("Your Akan Name is Kwaku");
+          alert("Your Akan Name is Kwaku");
           break;
 
         case 4:
-            alert("Your Akan Name is Yaw");
+          alert("Your Akan Name is Yaw");
           break;
 
         case 5:
-            alert("Your Akan Name is Kofi");
+          alert("Your Akan Name is Kofi");
           break;
 
-        case 6:{
-            alert("Your Akan Name is Kwame");
+        case 6: {
+          alert("Your Akan Name is Kwame");
           break;
         }
         default:
           alert("error");
           break;
       }
-          break;
+      break;
     }
 
-    case "2":{
-
+    case "2": {
       alert("you are female");
       switch (dayOfWeeks) {
         case 0:
@@ -141,7 +137,7 @@ function getInput() {
       break;
     }
     default:
-    break;
+      break;
   }
 }
 getInput();
