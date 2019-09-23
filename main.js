@@ -69,7 +69,7 @@ switch(gender){
     case gender = "male":
           switch(day){
             case (0 || -0):
-              document.getElementById("result").innerHTML = "You were born on a sunday." + "  " + "Your Akan name is " + maleNames[0];
+              document.getElementById("result").innerHTML = "You were born on a sunday." + "  " + prompt("Your Akan name is " + maleNames[0]);
               break;
               
               case (1 || -1):

@@ -24,19 +24,19 @@
             person. Middle names have considerably more variety and can refer to their birth order, twin status, or an
             ancestor's middle name.
 
-            <!-- This naming tradition is shared throughout West Africa and the African diaspora. During the 18th–19th
+            This naming tradition is shared throughout West Africa and the African diaspora. During the 18th–19th
           centuries, slaves in the Caribbean from the region that is modern-day Ghana were referred to as Coromantees.
           Many of the leaders of slave rebellions had "day names" including Cuffy or Kofi, Cudjoe or Kojo, and Quamina
           or Kwame/Kwamina.
 
           Most Ghanaians have at least one name from this system, even if they also have an English or Christian name.
           Notable figures with day names include Ghana's first president Kwame Nkrumah and former United Nations
-          Secretary-General Kofi Annan. -->
+          Secretary-General Kofi Annan.
           </p>
         </div>
-      </div>
+        </div>
 
-      <div id="form">
+        <div id="form">
         <div class="form">
           <form>
             <label>Century</label><br>
@@ -51,14 +51,57 @@
             <input type="radio" id="female" placeholder="female" required><br>
             <label>male</label>
             <input type="radio" id="male" placeholder="male"><br>
-            <input type="submit" id="submit" placeholder="SUBMIT" onclick="submission"><br><br>
-            <input type="reset" id="reset" placeholder="RESET">
+            <a href="#result"><button type="button" name="button" class="btn btn-primary mb-2" onclick="checkDayOfWeek();">Calculate Birthday</button></a>
+            <h1 id="result"></h1>
+    
           </form>
         </div>
       </div>
     </div>
   </div>
-  <script src="js/script/main.js"></script>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <form class="" name="akanNames" onsubmit="return dayFinder()" method="post">
+                <div class="form-group">
+                  <label for="fname">First Name</label>
+                  <input class="form-control" type="text" name="firstname" id="fname" value="" required>
+                </div>
+                <div class="form-group">
+                  <label for="sname">Second Name</label>
+                  <input class="form-control" type="text" name="secondname" id="sname" value="" required>
+                </div>
+                <div class="form-row">
+                  <div class="col-md-4 form-group">
+                    <label for="date">Date</label>
+                    <input class="form-control" type="number" name="date" id="date" value="" required>
+                  </div>
+                  <div class="col-md-4 form-group">
+                    <label for="month">Month</label>
+                    <input class="form-control" type="number" name="month" id="month" value="" required>
+                  </div>
+                  <div class="col-md-4 form-group">
+                    <label for="year">Year</label>
+                    <input class="form-control" type="number" name="year" id="year" value="" required>
+                  </div>
+                  <div class="form-row">
+                    <div class="col-md-6 form-group">
+                      <label for="male">Male</label>
+                      <input class="form-control" type="radio" name="gender" value="male">
+                    </div>
+                    <div class="col-md-6 form-group">
+                      <label for="female">Female</label>
+                      <input class="form-control" type="radio" name="gender" id="female" value="female">
+                    </div>
+                  </div>
+                </div>
+                <button type="submit" name="button" class="btn btn-primary">Submit</button>
+              </form>
+              <br><br>
+            </div>
+          </div>
+        </div>
+        <script src="js/script/.js"></script>
 </body>
 
 </html>
