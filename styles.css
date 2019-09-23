@@ -20,8 +20,9 @@ body {
 #form {
     margin-left: 50%;
     background-color: silver;
-    color: black;
+    /* color: black; */
     box-shadow: 2px 2px 2px 5px solid grey;
+    font-weight: bolder
 
 }
 
@@ -32,7 +33,7 @@ body {
     width: 100%;
     height: auto;
     box-shadow: 2px 2px 2px 5px solid grey;
-    color: black;
+    color: yellow;
     font-weight: bold;
 
     /* background-size: contain; */
