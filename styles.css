@@ -9,12 +9,16 @@
     font-family: 'Shadows Into Light', cursive;
     font-size: X-large;
     font-weight: bold;
-    color: yellow;
+    color: silver;
+   
+}body{
+    background-color:darkgrey;  
 }
+
 
 #form {
     margin-left:50%;
-    backdrop-filter: blur;
+    background-color: silver;
 }
 
 #info {
@@ -24,4 +28,5 @@
     height: auto;
     /* background-size: contain; */
     padding: 20%;
+    
 }

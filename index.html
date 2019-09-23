@@ -8,7 +8,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Akan</title>
+  <title>Akan-names</title>
 </head>
 
 <body>
@@ -34,9 +34,9 @@
           Secretary-General Kofi Annan. -->
           </p>
         </div>
-        </div>
+      </div>
 
-        <!-- <div id="form">
+      <!-- <div id="form">
         <div class="form">
           <form>
             <label>Century</label><br>
@@ -58,50 +58,38 @@
         </div>
       </div>
     </div> -->
-  <!-- </div> -->
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6">
-              <form class="" name="akanNames" onsubmit="return dayFinder()" method="post">
-                <div class="form-group">
-                  <label for="fname">First Name</label>
-                  <input class="form-control" type="text" name="firstname" id="fname" value="" required>
-                </div>
-                <div class="form-group">
-                  <label for="sname">Second Name</label>
-                  <input class="form-control" type="text" name="secondname" id="sname" value="" required>
-                </div>
-                <div class="form-row">
-                  <div class="col-md-4 form-group">
-                    <label for="date">Date</label>
-                    <input class="form-control" type="number" name="date" id="date" value="" required>
-                  </div>
-                  <div class="col-md-4 form-group">
-                    <label for="month">Month</label>
-                    <input class="form-control" type="number" name="month" id="month" value="" required>
-                  </div>
-                  <div class="col-md-4 form-group">
-                    <label for="year">Year</label>
-                    <input class="form-control" type="number" name="year" id="year" value="" required>
-                  </div>
-                  <div class="form-row">
-                    <div class="col-md-6 form-group">
-                      <label for="male">Male</label>
-                      <input class="form-control" type="radio" name="gender" value="male">
-                    </div>
-                    <div class="col-md-6 form-group">
-                      <label for="female">Female</label>
-                      <input class="form-control" type="radio" name="gender" id="female" value="female">
-                    </div>
-                  </div>
-                </div>
-                <button type="submit" name="button" class="btn btn-primary">Submit</button>
-              </form>
-              <br><br>
-            </div>
+      <!-- </div> -->
+      <div class="col-md-6 right">
+        <div class="panel col-sm-6 offset-sm-3">
+          <div class="form-group top-form">
+            <label for="century" class="labels">Century</label>
+            <input type="number" class="form-control" placeholder="Enter the century" id="century" value="" required min="0"
+              max="30">
           </div>
+          <div class="form-group">
+            <label for="year" class="labels">Year</label>
+            <input type="number" value="" placeholder="Enter the year" class="form-control" id="year" required min="0" max="100">
+          </div>
+          <div class="form-group">
+            <label for="month" class="labels">Month</label>
+            <input type="number" value="" class="form-control" placeholder="Enter the month of the year" id="month" required
+              min="0" max="12">
+          </div>
+          <div class="form-group">
+            <label for="monthDay" class="labels">Day of month</label>
+            <input type="number" value="" placeholder="Enter the day of the month" class="form-control" id="monthday" required
+              min="0" max="12">
+          </div>
+          <form class="radio-button">
+            <input type="radio" class="genders labels" value="1"  name="rads" required>Male
+            <input type="radio" class="genders labels" value="2"  name="rads" required>Female
+          </form>
+          <br>
+          <button type="button" name="button" class="btn btn-primary mb-2" onclick="getInput();">Calculate Birthday</button>
+          <h1 id="result"></h1>
         </div>
-        <script src="js/script/.js"></script>
+      </div>
+      <script src="main.js"></script>
 </body>
 
 </html>

@@ -20,7 +20,7 @@
 
 *Marion James
 
-##### Technologies used
+#### Technologies used
 
 *HTML 5
 
@@ -30,6 +30,6 @@
 
 *css
 
-###### License
+#### License
 
 *Copyright (c)2019 marionjames
