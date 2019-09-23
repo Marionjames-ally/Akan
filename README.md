@@ -12,15 +12,21 @@
 
 *You must enter the birth day in numbers i.e 1-31
 
-### BDD
+## BDD
 
 *The user logic was designed with html and css
 
-### Author
+## Author
 
 *Marion James
 
-### Technologies used
+## Contacts
+
+*mobile:0740070037
+
+*Email:marionjames2018@gmail.com
+
+## Technologies used
 
 *HTML 5
 
@@ -30,6 +36,6 @@
 
 *css
 
-### License
+## License
 
 *Copyright (c)2019 marionjames
